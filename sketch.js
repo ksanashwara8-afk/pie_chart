@@ -16,9 +16,9 @@ function setup(world) {
     r.InitWindow(w.width, w.height, "Pie Chart");
     r.SetTargetFPS(w.FPS);
 
-    world.food = g.createPortion("food", 10000, 3000);
-    world.travel = g.createPortion("travel", 10000, 3000);
-    world.savings = g.createPortion("savings", 10000, 4000);
+    world.food = g.createPortion("food", 10000, 5000);
+    world.travel = g.createPortion("travel", 10000, 2000);
+    world.savings = g.createPortion("savings", 10000, 3000);
 
     return world;
 }
